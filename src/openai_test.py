@@ -10,6 +10,7 @@ client = OpenAI(
     api_key=getenv("OPENROUTER_API_KEY"),
 )
 
+# You can use models like "google/gemini-2.5-pro-exp-03-25:free" or "openai/gpt-3.5-turbo"
 model = "openai/gpt-3.5-turbo"
 
 # Non-streaming:

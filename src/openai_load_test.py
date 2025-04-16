@@ -12,6 +12,7 @@ client = AsyncOpenAI(
 )
 
 # model = "google/gemma-7b-it"
+# model = "google/gemini-2.5-pro-exp-03-25:free"
 # model = "nousresearch/nous-capybara-34b"
 model = "microsoft/wizardlm-2-7b"
 # model = "meta-llama/llama-2-13b-chat"
